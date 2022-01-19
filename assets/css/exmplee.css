@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+html {
+    scroll-behavior: smooth;
+  }
+img{
+    margin: 0px;
+    padding: 0px;
+}
+.ecell_logo{
+    position: absolute;
+    height: 65px;
+    transform: translateY(-10px);
+    filter: contrast(1) saturate(1);
+    top: 0%;
+    padding: 0;
+    margin: 0%;
+    background-color: #ffffff;
+}
+.knowmore_carousel img{ 
+    /* height:100%; */
+    width: 100%;
+    filter: grayscale(0.8) brightness(0.5) ;
+
+    min-height: 100vh;
+    max-height: 100vh;
+    /* max-height: 100%; */
+    /* object-fit:contain; */
+}
+.knowmore_carousel{
+   
+    width: 100%;
+    height: 100%;
+}
+.navbar{
+    position: fixed;
+}
+.know_more{
+    font-family: 'Montserrat', sans-serif;
+    color: rgba(255, 252, 252, 0.84);
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* height: auto; */
+   width: 100%; 
+    /* z-index: 2; */
+    top: 35vh;
+}
+.know_more h1{
+    font-size: 4vw;
+}
+.know_more h3{
+    font-size: 2vw;
+    color:#3086B6;
+}
+.know_more button{
+    border-radius: 1vh;
+    font-size: 1.5vw;
+    width:auto;
+    height: auto;
+}
+#director-msg-container{
+    /* background-color: #3086B6; */
+    margin: 20px;
+}
+#director-msg-container p{
+    font-size: 1.6rem;
+}
+.director-photo{
+    margin: 100px 0 0 140px;
+    border-radius: 10px;
+}
+@media only screen and (max-width: 900px) {
+  .director-photo{
+      margin: auto;
+      width: 80vw;
+      margin: 10vw 10vw;
+  }
+}
+  .knowmore_carousel button{
+      background-color: rgba(240, 248, 255, 0);
+      border-width: 2px;
+      border-color: rgba(255, 252, 252, 0.84);
+      color: #3086B6;
+  }
+  .knowmore_carousel button:hover{
+      background-color: rgba(100, 34, 34, 0);
+    color:  rgba(255, 252, 252, 0.84);
+    border-color: #3086B6;
+  }
+  
+  @media screen and (max-width: 430px) and (min-width: 290px) {
+    .know_more{
+        top: 11vh;
+    }
+    .knowmore_carousel button{
+        display: none;
+    }
+    .knowmore_carousel img{
+        min-height: 310px;
+    }
+    .ecell_logo{
+        background-color: rgba(0, 0, 0, 0);
+    }
+    .know_more h1{
+        font-size: 6vw;
+    }
+    .know_more h3{
+        font-size: 3.5vw;
+    }
+
+  }
+  @media screen and (max-width: 1080px) and (min-width: 430px) {
+    .know_more{
+        top: 15vh;
+    }
+    .know_more h1{
+        font-size: 6vw;
+    }
+    .know_more h3{
+        font-size: 3.5vw;
+    }
+    .knowmore_carousel img{
+        min-height: 500px;
+    }
+    .ecell_logo{
+        background-color: rgba(0, 0, 0, 0);
+    }
+ 
+  }
+  @media screen and (max-width:290px){
+     .know_more{ top: 18vh;
+     }
+     .knowmore_carousel button{
+        display: none;
+    }
+     .knowmore_carousel img{
+        min-height: 300px;
+    }
+    .know_more h1{
+        font-size: 6vw;
+    }
+    .know_more h3{
+        font-size: 3.5vw;
+    }
+    .ecell_logo{
+        background-color: rgba(0, 0, 0, 0);
+    }
+  }

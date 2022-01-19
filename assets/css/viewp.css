@@ -1,0 +1,204 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+body{
+    background: url(/assets/img/texture.svg);
+    background-color: rgb(0, 69, 148);
+    /* background-color: #161E35; */
+}
+.dephead_info , h2{
+    font-weight:bold;
+    margin:  2px;
+}
+h2{
+    font-size: 1.5rem;
+}
+/* table a{
+    
+    text-decoration: none;
+    /* color: rgb(255, 255, 255); 
+} */
+nav{
+    backdrop-filter: blur(4px);
+    background-color: #00a2ffe7;
+    box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.25);
+}
+.navbar-brand{
+    transform: scaleZ(150px);
+}
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+a:hover{
+    text-decoration: none;
+    color:black;
+}
+.teams{
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.30);
+    background: rgb(255,98,1);
+background: linear-gradient(91deg, rgba(255,98,1,1) 0%, rgba(248, 154, 66, 0.978) 100%);
+    border-radius: 20px;
+    padding: 5px;
+    transform: translateY(20%);
+    z-index: 999;
+    color: rgb(255, 255, 255);
+    backdrop-filter: blur(1px);
+    font-family: 'Montserrat';
+}
+.teams h1{
+    font-size: 2em;
+}
+.dephead_info{
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+position: relative;
+display: flex;
+/* justify-content: center; */
+line-height: 0;
+align-items: center;
+color: rgb(255, 255, 255);
+flex-direction: column;
+backdrop-filter: blur(5px);
+width: 310px;
+transform: translateY(-80%);
+background: #00a2ffe7;
+box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.30);
+border-radius: 20px;
+overflow:hidden;
+}
+h3{
+  font-size: 1rem;
+}
+/* .head{
+    display: flex;
+    justify-content:flex-end;
+    overflow:hidden;
+    width: 100%;
+} */
+.head_divs{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.custom_table{
+    transform: translateX(13%);
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    background-color: #00a2ffec;
+    width: 80%;
+    border-radius: 20px;
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.30) inset;
+}
+/* .hero-area{
+    color: #00a2ffec;
+} */
+.navbar-brand {
+    float: left;
+    filter: saturate(100%);
+    height: 60px;
+}
+nav{
+    /* height: 8vh; */
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+}
+.dep_head{
+    position: relative;
+width: 272px;
+height: 353px;
+/* left: 584px;
+top: 194px; */
+/* border: 3px solid rgb(255, 153, 0); */
+box-shadow: 4px 4px 25px 5px rgba(0, 0, 0, 0.25);
+border-radius: 15px;
+}
+/* images for divs */
+.ecell_head{
+    background: url(team/vikky.png);
+    background-size:cover;
+}
+.ecell_cohead{
+    background: url(team/cohead.jpg);
+    background-size:contain;
+}
+.web_head{
+    background: url(team/webhead.jpg);
+    background-size:cover;
+}
+.finance_head{
+    background: url(team/financehead.jpg);
+    background-size:cover;
+}
+.prel_head{
+    background: url(team/cohead.jpg);
+    background-size:cover;
+}
+.mark_head{
+    background: url(team/mkthead.jpg);
+    background-size:cover;
+}
+.operation_head{
+    background: url(team/opthead.jpg);
+    background-size:cover;
+}
+.media_head{
+    background: url(team/mediahead.jpg);
+    background-size:cover;
+}
+@media only screen and (max-width:800px){
+ /* .dephead_info{
+     background-color: r    gb(250, 0, 0);
+ } */
+ .head{
+     display: flex;
+     flex-direction:column ;
+ }
+ .custom_table{
+     transform: translateX(2%);
+ }
+ .navbar-brand{
+    transform: translateY(-10%);
+ }
+ }
+ /* -----scroll bar ----- */
+ ::-webkit-scrollbar-track
+ {
+     -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+     background-color: #a3a3a3;
+     border-radius: 10px;
+ }
+ 
+ ::-webkit-scrollbar
+ {
+     width: 0.8em;
+     height: 0.6em;
+     background-color: #a3a3a3;
+ }
+ 
+ ::-webkit-scrollbar-thumb
+ {
+     border-radius: 10px;
+     background-image: -webkit-gradient(linear,
+                                        left bottom,
+                                        left top,
+                                        color-stop(0.44, rgb(136, 175, 255)),
+                                        color-stop(0.72, rgb(73,125,189)),
+                                        color-stop(0.86, rgb(41, 77, 187)));
+ }
+
+ /* ------------------- */
+
+ hr {
+    border: dotted #d3d3d3 6px;
+    border-bottom: none;
+    width: 70%;
+    margin: 70px auto;
+  }
