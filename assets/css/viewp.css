@@ -1,8 +1,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 body{
-    background: url(/assets/img/texture.svg);
-    background-color: rgb(0, 69, 148);
+    /* background: url(/assets/img/texture.svg); */
+    background-color: rgb(243, 250, 255);
     /* background-color: #161E35; */
 }
 .dephead_info , h2{
@@ -19,11 +19,15 @@ h2{
 } */
 nav{
     backdrop-filter: blur(4px);
-    background-color: #00a2ffe7;
+    background-color: #fffffff5;
     box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.25);
 }
 .navbar-brand{
     transform: scaleZ(150px);
+}
+nav a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
 }
 a{
     text-decoration: none;
@@ -47,6 +51,7 @@ background: linear-gradient(91deg, rgba(255,98,1,1) 0%, rgba(248, 154, 66, 0.978
 }
 .teams h1{
     font-size: 2em;
+    position: relative;
 }
 .dephead_info{
     cursor: pointer;
@@ -90,6 +95,17 @@ h3{
     border-radius: 20px;
     box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.30) inset;
 }
+.custom_table1{
+    transform: translateX(13%);
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    align-items: center;
+    text-align: center;
+    background-color: #00a2ffec;
+    width: 80%;
+    border-radius: 20px;
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.30) inset;
+}
 /* .hero-area{
     color: #00a2ffec;
 } */
@@ -121,36 +137,95 @@ box-shadow: 4px 4px 25px 5px rgba(0, 0, 0, 0.25);
 border-radius: 15px;
 }
 /* images for divs */
+.ecell_patron{
+    background: url(team/sjsbedi.jpg);
+    background-size:cover;
+}
+.ecell_chairman{
+    background: url(team/1801199811.jpg);
+    background-size:cover;
+}
+.ecell_coordinator {
+    background: url(team/18122755708.jpg);
+    background-size:cover;
+}
+
+/*.ecell_coordinator {*/
+/*    background: url(team/18122755708.jpg)*/
+/*}*/
+
 .ecell_head{
-    background: url(team/vikky.png);
-    background-size:cover;
-}
-.ecell_cohead{
-    background: url(team/cohead.jpg);
-    background-size:contain;
-}
-.web_head{
-    background: url(team/webhead.jpg);
-    background-size:cover;
-}
-.finance_head{
     background: url(team/financehead.jpg);
     background-size:cover;
 }
-.prel_head{
+.ecell_head2{
     background: url(team/cohead.jpg);
     background-size:cover;
 }
+.ecell_cohead{
+    background: url(team/VaibhavGUpta.jpeg);
+    background-size:contain;
+}
+.ecell_cohead2{
+    background: url(team/NaincyGhiria.JPG);
+    background-size:cover;
+}
+.web_head{
+    background: url(team/Rohit.jpeg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position-x: 45%;
+}
+.web_head2{
+    background: url(team/aakansh.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position-x: 45%;
+}
+.finance_head{
+    background: url(team/Kevin.JPG);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position-x: 70%;
+}
+.finance_head2{
+    background: url(team/DevanshKhullar.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+}
+.prel_head{
+    background: url(team/AmandeepSingh.png);
+    background-size:cover;
+}
+.prel_head2{
+    background: url(team/Khushi.jpeg);
+    background-size:cover;
+}
 .mark_head{
-    background: url(team/mkthead.jpg);
+    background: url(team/DhairiyaVij.jpg);
+    background-size:cover;
+}
+.mark_head2{
+    background: url(team/RajneeshKumar.jpg);
     background-size:cover;
 }
 .operation_head{
-    background: url(team/opthead.jpg);
+    background: url(team/SaumyaBhardwaj.png);
     background-size:cover;
 }
+.operation_head2{
+    background: url(team/VaibhavThatai.jpg);
+    background-size:cover;
+    background-position-x: 50% ;
+}
 .media_head{
-    background: url(team/mediahead.jpg);
+    background: url(team/Surinder.jpg);
+    background-size:cover;
+    background-position-y: 50% ;
+}
+.media_head2{
+    background: url(team/WhatsApp Image 2022-11-03 at 11.14.39 PM.jpeg);
     background-size:cover;
 }
 @media only screen and (max-width:800px){
@@ -169,7 +244,7 @@ border-radius: 15px;
  }
  }
  /* -----scroll bar ----- */
- ::-webkit-scrollbar-track
+ /* ::-webkit-scrollbar-track
  {
      -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
      background-color: #a3a3a3;
@@ -189,15 +264,15 @@ border-radius: 15px;
      background-image: -webkit-gradient(linear,
                                         left bottom,
                                         left top,
-                                        color-stop(0.44, rgb(136, 175, 255)),
-                                        color-stop(0.72, rgb(73,125,189)),
-                                        color-stop(0.86, rgb(41, 77, 187)));
- }
+                                        color-stop(0.44, rgb(164, 164, 164)),
+                                        color-stop(0.72, rgb(122, 123, 123)),
+                                        color-stop(0.86, rgb(82, 82, 82)));
+ } */
 
  /* ------------------- */
 
  hr {
-    border: dotted #d3d3d3 6px;
+    border: dotted #929292 6px;
     border-bottom: none;
     width: 70%;
     margin: 70px auto;

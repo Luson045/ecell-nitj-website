@@ -20,6 +20,28 @@ body {
     overflow-x: hidden
 }
 
+
+.register {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: #3d60f4;
+    border-radius: 5px;
+    color: white;
+    outline: none;
+    border: none;
+    padding: 10px 10px;
+    font-size: 15px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.register:hover{
+    color: #3d60f4;
+    background-color: #fff;
+    border: 1px solid #3d60f4;
+}
+
+
 h1,
 h2,
 h3,
@@ -1858,7 +1880,7 @@ textarea {
    margin: 40px;
 }
 .footer-area {
-    background: #000000
+    background: #1f1f1f
 }
 
 .footer-area .footer-titel {
@@ -1904,7 +1926,7 @@ textarea {
 }
 
 .copyright {
-    background: #34363a;
+    background: #007bff;
     padding: 15px
 }
 
