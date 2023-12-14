@@ -150,18 +150,6 @@ border-radius: 15px;
     background-size:cover;
 }
 
-/*.ecell_coordinator {*/
-/*    background: url(team/18122755708.jpg)*/
-/*}*/
-
-.ecell_head{
-    background: url(team/financehead.jpg);
-    background-size:cover;
-}
-.ecell_head2{
-    background: url(team/cohead.jpg);
-    background-size:cover;
-}
 .ecell_cohead{
     background: url(team/VaibhavGUpta.jpeg);
     background-size:contain;
@@ -171,67 +159,45 @@ border-radius: 15px;
     background-size:cover;
 }
 .ecell_cohead3{
-    background: url(team/ManikRajGupta.jpg);
+    background: url(team/manikraj.jpg);
     background-size:cover;
 }
 .web_head{
-    background: url(team/Rohit.jpeg);
-    background-size:cover;
-    background-repeat: no-repeat;
-    background-position-x: 45%;
-}
-.web_head2{
-    background: url(team/aakansh.jpg);
+    background: url(team/chandan\ soni.jpg);
     background-size:cover;
     background-repeat: no-repeat;
     background-position-x: 45%;
 }
 .finance_head{
-    background: url(team/Kevin.JPG);
+    background: url(team/ankit.jpg);
     background-size:cover;
     background-repeat: no-repeat;
     background-position-x: 70%;
 }
-.finance_head2{
-    background: url(team/DevanshKhullar.png);
-    background-size:cover;
-    background-repeat: no-repeat;
-    background-position-x: 50%;
-}
 .prel_head{
-    background: url(team/AmandeepSingh.png);
+    background: url(team/bhavyavohra.jpg);
     background-size:cover;
 }
 .prel_head2{
-    background: url(team/Khushi.jpeg);
+    background: url(team/akhleemkhan.jpg);
     background-size:cover;
 }
 .mark_head{
-    background: url(team/DhairiyaVij.jpg);
-    background-size:cover;
-}
-.mark_head2{
-    background: url(team/RajneeshKumar.jpg);
+    background: url(team/kanaksingh.jpg);
     background-size:cover;
 }
 .operation_head{
-    background: url(team/SaumyaBhardwaj.png);
+    background: url(team/arshdeepsingh.jpg);
     background-size:cover;
-}
-.operation_head2{
-    background: url(team/VaibhavThatai.jpg);
-    background-size:cover;
-    background-position-x: 50% ;
 }
 .media_head{
-    background: url(team/Surinder.jpg);
+    background: url(team/akritimenon.jpg);
     background-size:cover;
-    background-position-y: 50% ;
+    background-position-y: 70% ;
+    background-position-x: 50%;
+
 }
-.media_head2{
-    background: url(team/WhatsApp Image 2022-11-03 at 11.14.39 PM.jpeg);
-    background-size:cover;
-}
+
 @media only screen and (max-width:800px){
  /* .dephead_info{
      background-color: r    gb(250, 0, 0);
@@ -247,33 +213,6 @@ border-radius: 15px;
     transform: translateY(-10%);
  }
  }
- /* -----scroll bar ----- */
- /* ::-webkit-scrollbar-track
- {
-     -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
-     background-color: #a3a3a3;
-     border-radius: 10px;
- }
- 
- ::-webkit-scrollbar
- {
-     width: 0.8em;
-     height: 0.6em;
-     background-color: #a3a3a3;
- }
- 
- ::-webkit-scrollbar-thumb
- {
-     border-radius: 10px;
-     background-image: -webkit-gradient(linear,
-                                        left bottom,
-                                        left top,
-                                        color-stop(0.44, rgb(164, 164, 164)),
-                                        color-stop(0.72, rgb(122, 123, 123)),
-                                        color-stop(0.86, rgb(82, 82, 82)));
- } */
-
- /* ------------------- */
 
  hr {
     border: dotted #929292 6px;
