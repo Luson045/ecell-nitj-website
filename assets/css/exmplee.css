@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 html {
     scroll-behavior: smooth;
   }
@@ -9,12 +10,13 @@ img{
 }
 .ecell_logo{
     position: absolute;
-    height: 65px;
-    transform: translateY(-10px);
+    height: 56px;
+    transform: translateY(-3.5px);
     filter: contrast(1) saturate(1);
     top: 0%;
     padding: 0;
-    margin: 0%;
+    left:auto;
+    margin-left: 0%;
     background-color: #ffffff;
 }
 .knowmore_carousel img{ 
@@ -36,19 +38,20 @@ img{
     position: fixed;
 }
 .know_more{
-    font-family: 'Montserrat', sans-serif;
+    font-family: titillium web, sans-serif;
     color: rgb(255, 252, 252);
     position: absolute;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center; /* height: auto; */
+    justify-content: center;
    width: 100%; 
-    /* z-index: 2; */
     top: 35vh;
 }
 .know_more h1{
     font-size: 4vw;
+    font-stretch:narrower;
+    font-weight: bold;
 }
 .know_more h3{
     font-size: 2vw;
@@ -61,7 +64,6 @@ img{
     height: auto;
 }
 #director-msg-container{
-    /* background-color: #3086B6; */
     margin: 20px;
 }
 #director-msg-container p{
@@ -101,6 +103,8 @@ img{
         min-height: 310px;
     }
     .ecell_logo{
+        transform: translateX(-100px);
+        border: none;
         background-color: rgba(0, 0, 0, 0);
     }
     .know_more h1{
@@ -124,7 +128,9 @@ img{
     .knowmore_carousel img{
         min-height: 500px;
     }
-    .ecell_logo{
+    .ecell_logo{ 
+        transform: translateX(-100px);
+        border: none;
         background-color: rgba(0, 0, 0, 0);
     }
  
@@ -144,7 +150,9 @@ img{
     .know_more h3{
         font-size: 3.5vw;
     }
-    .ecell_logo{
+    .ecell_logo{ 
+        transform: translateX(-100px);
+        border: none;
         background-color: rgba(0, 0, 0, 0);
     }
   }
