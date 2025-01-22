@@ -27,7 +27,7 @@ body {
     align-items: center;
     justify-content: center;
     display: flex;
-    background-color: #00aced;
+    background-color: #0369a0;
     border-radius: 5px;
     color: white;
     outline: none;
@@ -38,9 +38,9 @@ body {
     transition: 0.3s;
 }
 .register:hover{
-    color: #00aced;
+    color: #0369a0;
     background-color: #fff;
-    border: 1px solid #00aced;
+    border: 1px solid #0369a0;
 }
 
 
@@ -151,7 +151,7 @@ a:not([href]):not([tabindex]) {
 }
 
 .btn-common {
-    background-color: #00aced;
+    background-color: #0369a0;
     position: relative;
     z-index: 1;
     text-transform: uppercase
@@ -167,23 +167,23 @@ a:not([href]):not([tabindex]) {
 }
 
 .btn-border {
-    color: #00aced;
+    color: #0369a0;
     background-color: transparent;
-    border: 1px solid #00aced;
+    border: 1px solid #0369a0;
     border-radius: 30px;
     text-transform: uppercase
 }
 
 .btn-border:hover {
     color: #fff;
-    border-color: #00aced;
-    background-color: #00aced
+    border-color: #0369a0;
+    background-color: #0369a0
 }
 
 .btn-border:focus {
     color: #fff;
-    border-color: #00aced;
-    background-color: #00aced
+    border-color: #0369a0;
+    background-color: #0369a0
 }
 
 .btn-lg {
@@ -203,10 +203,10 @@ button:focus {
 
 .icon-close,
 .icon-check {
-    color: #00aced;
+    color: #0369a0;
 }
 .copyright{
-    background-color: #00aced !important;
+    background-color: #0369a0 !important;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -316,7 +316,7 @@ a.back-to-top:focus {
     height: 100%;
     border-radius: 100%;
     border: 7px solid transparent;
-    border-top-color: #00aced
+    border-top-color: #0369a0
 }
 
 #loader-1:before {
@@ -353,7 +353,7 @@ hr {
 }
 
 .feature-bg {
-    background: #3d60f4
+    background: #3d60f4;
 }
 
 .text-wrapper {
@@ -409,7 +409,7 @@ hr {
 }
 
 .feature-item:hover .icon i {
-    color: #00aced
+    color: #f56d1e
 }
 
 .services-item {
@@ -427,7 +427,7 @@ hr {
 
 .services-item .icon i {
     font-size: 42px;
-    color: #00aced
+    color: #0369a0
 }
 
 .services-item .services-content h3 {
@@ -438,11 +438,12 @@ hr {
 
 .services-item .services-content h3 a {
     font-size: 18px;
-    color: #585b60
+    color: #fff
 }
 
 .services-item .services-content h3 a:hover {
-    color: #00aced
+    color: #553a3a;
+    text-decoration: none;
 }
 
 .services-item:hover {
@@ -459,7 +460,7 @@ hr {
     right: 0;
     width: 47.1%;
     height: 100%;
-    background: #00aced;
+    background: #0369a0;
     overflow: hidden
 }
 
@@ -500,7 +501,7 @@ hr {
 }
 
 .skills-section .progress .progress-bar {
-    background: #00aced
+    background: #0369a0
 }
 
 .navbar-brand {
@@ -530,7 +531,7 @@ hr {
 
 .top-nav-collapse .navbar-nav .nav-link:hover {
     cursor: pointer;
-    color: #00aced !important
+    color: #0369a0 !important
 }
 
 .top-nav-collapse .navbar-nav li.active a.nav-link {
@@ -579,7 +580,7 @@ hr {
 .navbar-expand-md .navbar-nav li a:hover,
 .navbar-expand-md .navbar-nav li .active>a,
 .navbar-expand-md .navbar-nav li a:focus {
-    color: #00aced;
+    color: #0369a0;
     outline: none
 }
 
@@ -587,12 +588,12 @@ hr {
 .navbar-expand-md .navbar-nav .nav-link.active,
 .navbar-expand-md .navbar-nav .nav-link.open,
 .navbar-expand-md .navbar-nav .open>.nav-link {
-    color: #00aced !important ;
+    color: #0369a0 !important ;
 }
 
 .navbar-expand-md .navbar-nav .nav-link:focus,
 .navbar-expand-md .navbar-nav .nav-link:hover {
-    color: #00aced !important ;
+    color: #0369a0 !important ;
     
 }
 
@@ -601,7 +602,7 @@ hr {
 }
 
 .navbar li.active a.nav-link {
-    color: #00aced;
+    color: #0369a0;
 }
 
 .menu-white .navbar-nav .nav-link {
@@ -690,7 +691,7 @@ hr {
 .dropdown .dropdown-item:focus,
 .dropdown .dropdown-item:hover,
 .dropdown .dropdown-item.active {
-    color: #00aced;
+    color: #0369a0;
     background: #f7f7f7
 }
 
@@ -798,7 +799,7 @@ hr {
     color: #fff;
     width: 36px;
     height: 36px;
-    background: #00aced;
+    background: #0369a0;
     display: block;
     border-radius: 30px;
     line-height: 36px;
@@ -813,7 +814,7 @@ hr {
 }
 
 .team-item .overlay-social-icon .social-icons li a:hover .lni-twitter-filled {
-    background: #00aced
+    background: #0369a0
 }
 
 .team-item .overlay-social-icon .social-icons li a:hover .lni-instagram-filled {
@@ -837,7 +838,7 @@ hr {
 }
 
 .team-item .info-text h3 a:hover {
-    color: #00aced
+    color: #0369a0
 }
 
 .team-item .info-text p {
@@ -951,7 +952,7 @@ hr {
 
 .video-promo .video-promo-content .video-popup:hover {
     background: #fff;
-    color: #00aced;
+    color: #0369a0;
     box-shadow: 0 8px 9px 0 rgba(96, 94, 94, .17)
 }
 
@@ -1020,8 +1021,8 @@ hr {
 }
 
 .controls .active {
-    color: #00aced !important;
-    border-color: #00aced;
+    color: #0369a0 !important;
+    border-color: #0369a0;
     background: 0 0
 }
 
@@ -1086,7 +1087,7 @@ hr {
 .shot-item .single-content .zoom-icon a i {
     color: #fff;
     font-size: 22px;
-    background: #00aced;
+    background: #0369a0;
     width: 48px;
     height: 48px;
     display: block;
@@ -1124,7 +1125,7 @@ hr {
 #pricing .title {
     padding-top: 25px;
     padding-bottom: 25px;
-    background: #00aced;
+    background: #0369a0;
     border-top-right-radius: 4px;
     border-top-left-radius: 4px
 }
@@ -1153,7 +1154,7 @@ hr {
 }
 
 #pricing .table .icon i {
-    color: #00aced;
+    color: #0369a0;
     font-size: 42px
 }
 
@@ -1213,7 +1214,7 @@ hr {
 }
 
 #pricing #active-tb .price-value {
-    color: #00aced
+    color: #0369a0
 }
 
 #pricing #active-tb .btn-common {
@@ -1270,7 +1271,7 @@ hr {
 }
 
 #blog .blog-item-text h3 a:hover {
-    color: #00aced
+    color: #0369a0
 }
 
 #blog .blog-item-text p {
@@ -1296,7 +1297,7 @@ hr {
 }
 
 .meta-tags span a:hover {
-    color: #00aced
+    color: #0369a0
 }
 
 .page-header {
@@ -1344,7 +1345,7 @@ hr {
 
 .breadcrumb-wrapper .breadcrumb-title p:hover,
 .breadcrumb-wrapper .breadcrumb-title a:hover {
-    color: #00aced
+    color: #0369a0
 }
 
 #blog-single {
@@ -1440,7 +1441,7 @@ hr {
 }
 
 .post-meta ul li a:hover {
-    color: #00aced
+    color: #0369a0
 }
 
 .single-widget {
@@ -1495,7 +1496,7 @@ hr {
 }
 
 .single-latest-post a:hover {
-    color: #00aced
+    color: #0369a0
 }
 
 .categories ul li {
@@ -1512,7 +1513,7 @@ hr {
 }
 
 .categories ul li a:hover {
-    color: #00aced
+    color: #0369a0
 }
 
 .tags {
@@ -1610,7 +1611,7 @@ hr {
 .testimonial-item .info .indicator {
     font-size: 26px;
     font-weight: 700;
-    color: #00aced
+    color: #0369a0
 }
 
 .testimonial-item .icon-social {
@@ -1697,7 +1698,7 @@ hr {
 .owl-carousel button.owl-dot.active span,
 .owl-carousel button.owl-dot.clickable,
 .owl-carousel button.owl-dot:hover span {
-    background: #00aced
+    background: #0369a0
 }
 
 .slick-slider {
@@ -1737,7 +1738,7 @@ hr {
 }
 
 .form-control:focus {
-    border-color: #00aced;
+    border-color: #0369a0;
     box-shadow: none;
     outline: none
 }
@@ -1865,7 +1866,7 @@ textarea {
     border-radius: 50px;
     position: relative;
     height: 52px;
-    border: 1px solid #00aced
+    border: 1px solid #0369a0
 }
 
 .subscribe .btn-submit {
@@ -1877,7 +1878,7 @@ textarea {
 .subscribe .btn-submit i {
     width: 48px;
     height: 48px;
-    background: #00aced;
+    background: #0369a0;
     cursor: pointer;
     display: block;
     color: #fff;
@@ -1910,7 +1911,7 @@ textarea {
 }
 
 .footer-area ul li a:hover {
-    color: #00aced
+    color: #0369a0
 }
 
 .footer-area #subscribe-form {
@@ -1929,7 +1930,7 @@ textarea {
     height: 39px;
     border-radius: 0;
     background: 0 0;
-    color: #00aced;
+    color: #0369a0;
     border-left: 1px solid #ddd
 }
 
@@ -1954,7 +1955,7 @@ textarea {
 }
 
 .copyright p a:hover {
-    color: #00aced
+    color: #0369a0
 }
 
 
@@ -1989,12 +1990,12 @@ textarea {
     min-height: 100%;
     border-radius: 25px; 
     border: dotted black 2px;
-    background: rgb(169,148,0);
-    background: linear-gradient(90deg, rgba(169,148,0,1) 0%, rgba(191,176,3,1) 35%, rgba(255,252,2,1) 100%);
+    background: rgb(245, 128, 60);
+    background: linear-gradient(90deg, rgb(254, 141, 75) 0%, rgb(249, 124, 52) 35%, rgb(249, 107, 24) 100%);
+    box-shadow: 10px 10px lightblue;
 }
-.gold-card{
-    background: rgb(169,148,0);
-    background: linear-gradient(90deg, rgba(169,148,0,1) 0%, rgba(191,176,3,1) 35%, rgba(255,252,2,1) 100%);
+.gold-card{background: linear-gradient(to right, #007BFF, #a6cbf3);
+    color: white
 }
 .services-item {
     margin-bottom: 20px;
@@ -2047,6 +2048,7 @@ textarea {
     font-stretch: narrower;
     color: #333;
     padding: 0.5rem 0;
+    text-shadow: lightblue 2px 2px;
 }
 
 .moving-bar::before {
@@ -2055,7 +2057,7 @@ textarea {
     bottom: 0;
     height: 4px;
     width: 100%;
-    background-color: #0094c9;
+    background-color: rgb(245, 128, 60);
     transform: scaleX(0);
     transform-origin: bottom right;
     transition: transform 0.3s ease-in-out;
