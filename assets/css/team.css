@@ -151,19 +151,21 @@ border-radius: 15px;
 }
 
 .ecell_cohead{
-    background: url(team/VaibhavGUpta.jpeg);
-    background-size:contain;
+    background: url(../img/team_2025/IMG_5800\ -\ SHEETAL\ MEHAN.jpeg);
+    background-size:cover;
 }
 .ecell_cohead2{
-    background: url(team/NaincyGhiria.JPG);
+    background: url(../img/team_2025/Screenshot\ 2025-01-24\ 230920.png);
     background-size:cover;
+    background-position-y: 70% ;
+    background-position-x: 50%;
 }
 .ecell_cohead3{
     background: url(team/manikraj.jpg);
     background-size:cover;
 }
 .web_head{
-    background: url(team/chandan\ soni.jpg);
+    background: url(../img/team_2025/chetan\ mittal.jpeg);
     background-size:cover;
     background-repeat: no-repeat;
     background-position-x: 45%;
@@ -175,27 +177,31 @@ border-radius: 15px;
     background-position-x: 70%;
 }
 .prel_head{
-    background: url(team/bhavyavohra.jpg);
+    background: url(../img/team_2025/Uttamdeep\ Singh.jpg);
     background-size:cover;
-}
-.prel_head2{
-    background: url(team/akhleemkhan.jpg);
-    background-size:cover;
+    background-position-y: 70% ;
+    background-position-x: 50%;
 }
 .mark_head{
-    background: url(team/kanaksingh.jpg);
+    background: url(../img/team_2025/Shashank\ Agrahari.jpeg);
     background-size:cover;
+    background-position-y: 70% ;
+    background-position-x: 50%;
 }
 .operation_head{
     background: url(team/arshdeepsingh.jpg);
     background-size:cover;
 }
 .media_head{
-    background: url(team/akritimenon.jpg);
+    background: url(../img/team_2025/Dewansh\ Mishra.jpg);
     background-size:cover;
     background-position-y: 70% ;
     background-position-x: 50%;
 
+}
+
+.scrollable{
+    overflow-x: scroll;
 }
 
 @media only screen and (max-width:800px){
@@ -207,10 +213,13 @@ border-radius: 15px;
      flex-direction:column ;
  }
  .custom_table{
-     transform: translateX(2%);
+     transform: translateX(100px);
  }
  .navbar-brand{
     transform: translateY(-10%);
+ }
+ .dep_head, .dephead_info, .teams{
+    transform: translateX(50px);
  }
  }
 
