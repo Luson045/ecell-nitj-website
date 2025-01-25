@@ -1031,8 +1031,20 @@
     <div id="preloader">
         <div class="loader" id="loader-1"></div>
     </div>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const currentDate = new Date(); // Get the current date
+            const februarySecond = new Date(currentDate.getFullYear(), 1, 5); // February 5th of the current year
 
-
+            // Check if the current date is February 2 or later
+            if (currentDate >= februarySecond) {
+                const inductionLink = document.getElementById("mydivitem");
+                if (inductionLink) {
+                    inductionLink.style.display = "none"; // Hide the link
+                }
+            }
+        });
+    </script>
     <script src="assets/js/jquery-min.js"></script>
     <script src="assets/js/popper.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>

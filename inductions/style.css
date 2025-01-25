@@ -53,6 +53,8 @@ nav {
 .hero {
   height: 100vh;
   background: linear-gradient(135deg, #6c5ce7 0%, #a88beb 100%);
+  background-image: url(./assets/bg.jpg);
+  background-size: cover;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -266,14 +268,42 @@ footer {
   border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
 
-/* Responsive Design */
+
+.register-now-btn {
+  display: inline-block;
+  padding: 16px 32px;
+  background: linear-gradient(to right, #9370DB, #8B00FF, #4B0082);
+  color: white;
+  font-size: 10px;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 40px;
+  transition: transform 0.3s ease;
+  margin-top: 2vh;
+}
+
+.register-now-btn:hover {
+  transform: scale(1.1);
+}
+
+.live-text {
+  color: #FF6347;
+  animation: blink 2s infinite;
+}
+
+@keyframes blink {
+  0% { opacity: 1; }
+  50% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
 @media (max-width: 768px) {
   .hero-content h1 {
       font-size: 2.5rem;
   }
   
   .nav-links {
-      display: none; /* For mobile, you might want to add a hamburger menu */
+      display: none;
   }
   
   section {
@@ -285,7 +315,6 @@ footer {
   }
 }
 
-/* Animations */
 @keyframes fadeIn {
   from {
       opacity: 0;
