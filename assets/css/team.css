@@ -171,10 +171,10 @@ border-radius: 15px;
     background-position-x: 45%;
 }
 .finance_head{
-    background: url(team/ankit.jpg);
+    background: url(../img/team_2025/39b168a54a3195d4b877edadc3ec6852_imagesplatform\ -\ KUMAR\ SAURABH.jpg);
     background-size:cover;
     background-repeat: no-repeat;
-    background-position-x: 70%;
+    background-position-x: 50%;
 }
 .prel_head{
     background: url(../img/team_2025/Uttamdeep\ Singh.jpg);
@@ -189,7 +189,7 @@ border-radius: 15px;
     background-position-x: 50%;
 }
 .operation_head{
-    background: url(team/arshdeepsingh.jpg);
+    background: url(../img/team_2025/IMG-20241019-WA0008\ -\ PARSHANT\ GARG.jpg);
     background-size:cover;
 }
 .media_head{
@@ -199,6 +199,14 @@ border-radius: 15px;
     background-position-x: 50%;
 
 }
+.des_head{
+    background: url(../img/team_2025/Screenshot_2024-12-25-04-52-57-21_6012fa4d4ddec268fc5c7112cbb265e7\ -\ Harshad\ Kurade.jpg);
+    background-size:cover;
+    background-position-y: 70% ;
+    background-position-x: 50%;
+
+}
+
 
 .scrollable{
     overflow-x: scroll;
