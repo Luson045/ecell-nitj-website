@@ -221,7 +221,8 @@ border-radius: 15px;
      flex-direction:column ;
  }
  .custom_table{
-     transform: translateX(100px);
+     transform: translateX(100px) scale(0.9);
+     align-items: center;
  }
  .navbar-brand{
     transform: translateY(-10%);
